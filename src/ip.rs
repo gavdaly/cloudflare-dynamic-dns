@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
 #[derive(Deserialize, Serialize)]
 pub struct Ip {
-    pub ip: String
+    pub ip: String,
 }
 
 pub async fn get() -> Result<String, surf::Error> {
