@@ -27,13 +27,14 @@ cfddns
 cfddns
 ```
 
-or when specifying the toml location
+when specifying the toml location
 
 ```sh
 cfddns -c config.toml
 ```
 
 base toml file
+
 ```toml
 auth_email=examle@email.com
 auth_key=exampleKey
